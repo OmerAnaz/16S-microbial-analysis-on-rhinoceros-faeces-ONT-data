@@ -17,7 +17,9 @@ FastQC tool on the (original) input data. Output is FastQC unprocessed : Raw and
 
 Improving the data quality
 
-Porechop tool is used for adapter trimming with the settings : "Input FASTA/FASTQ" = orignal data. "Output format for the reads" = fastq. The output is renamed trimmed barcode.
+Porechop tool is used for adapter trimming with the settings : >"Input FASTA/FASTQ" = orignal data. "Output format for the reads" = fastq. 
+
+The output is renamed trimmed barcode.
 
 
 **Step 3**
@@ -46,7 +48,7 @@ MultiQC tool is run with the Processed Raw data as input with the settings : "Wh
 
 Taxonomic classification
 
-Kraken2 tool is run with the barcoodes processed data as input and with the settings : ###"Single or paired reads" = Single. "Print scientific names instead of just taxids" = Yes. "Confidence" = 0.1###
+Kraken2 tool is run with the barcoodes processed data as input and with the settings : "Single or paired reads" = Single. "Print scientific names instead of just taxids" = Yes. "Confidence" = 0.1
 
 In Create Report "Print a report with aggregate counts/clade to file" = Yes. "Format report output like Kraken 1's kraken-mpa-report" = Yes
 
