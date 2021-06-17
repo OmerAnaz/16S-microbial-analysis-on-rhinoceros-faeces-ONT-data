@@ -14,7 +14,7 @@ Assess quality of data
 >FastQC unprocessed : Raw 
 >FastQC unprocessed : Web data for each input. 
 
-MultiQC with settings : 
+<b>MultiQC</b> with settings : 
 >"Which tool was used to generate logs?" set to FastQC. 
 Input used is the raw files from FastQC output.
 
@@ -23,7 +23,7 @@ Input used is the raw files from FastQC output.
 
 Improving the data quality
 
-Porechop tool is used for adapter trimming with the settings : 
+<b>Porechop</b> tool is used for adapter trimming with the settings : 
 >"Input FASTA/FASTQ" = orignal data. 
 >"Output format for the reads" = fastq. 
 
@@ -34,7 +34,7 @@ The output is renamed trimmed barcode.
 
 Sequence filtering
 
-Fastp tool is used on the trimmed barcode data with the settings : 
+<b>Fastp</b> tool is used on the trimmed barcode data with the settings : 
 >"Single-end or paired reads" = Single-end. 
 >In Adapter Trimming Options "Disable adapter trimming" = Yes.
 
@@ -49,9 +49,9 @@ The output is renamed to barcodes processed.
 
 Asses quality of processed data
 
-FastQC tool is run with the barcodes processed data as input. Output is renamed to Processed Raw and Processed Web
+<b>FastQC</b> tool is run with the barcodes processed data as input. Output is renamed to Processed Raw and Processed Web
 
-MultiQC tool is run with the Processed Raw data as input with the settings : 
+<b>MultiQC</b> tool is run with the Processed Raw data as input with the settings : 
 >"Which tool was used to generate the logs?" = FastQC
 
 
@@ -59,7 +59,7 @@ MultiQC tool is run with the Processed Raw data as input with the settings :
 
 Taxonomic classification
 
-Kraken2 tool is run with the barcoodes processed data as input and with the settings : 
+<b>Kraken2</b> tool is run with the barcoodes processed data as input and with the settings : 
 >"Single or paired reads" = Single. 
 >"Print scientific names instead of just taxids" = Yes. 
 >"Confidence" = 0.1
@@ -74,20 +74,20 @@ The "Select a Kraken2 database" is the new Silva database for 16s. In this case 
 
 Preparing the taxonomic data
 
-Reverse tool is used on the Kraken2 report data
+<b>Reverse</b> tool is used on the Kraken2 report data
 
-Replace Text tool is used on the output from the Reverse tool with settings : 
+<b>Replace Text</b> tool is used on the output from the Reverse tool with settings : 
 >in Replacement / Insert Replacement 
 >"Find pattern" = \| 
 >"Replace pattern = \t
 
-Remove beginning tool is used on the output from the Replace Text tool.
+<b>Remove beginning</b> tool is used on the output from the Replace Text tool.
 
 
 **Step 7**
 
 Visualizing the data
 
-Krona pie chart tool was used on the output from the Remove beginning tool with the settings : 
+<b>Krona pie chart</b> tool was used on the output from the Remove beginning tool with the settings : 
 >"What is the type of your input data" = Tabular. 
 >"Provide a name for the basal rank" = Bacteria
