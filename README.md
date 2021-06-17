@@ -7,7 +7,9 @@ Oxford Nanopore Technologies fastq formated data of the 16S region
 
 **Step 1:** 
 
-qawqwdqwd
+Assess quality of data
+
+FastQC tool on the input data --> FastQC unprocessed : Raw and FastQC unprocessed : Web data for each input.  
 
 **Step 2:**
 
