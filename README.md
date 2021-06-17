@@ -10,7 +10,7 @@ Oxford Nanopore Technologies fastq formated data of the 16S region
 
 Assess quality of data
 
-FastQC tool on the (original) input data. Outputs are
+<b>FastQC</b> tool on the (original) input data. Outputs are
 >FastQC unprocessed : Raw 
 >FastQC unprocessed : Web data for each input. 
 
