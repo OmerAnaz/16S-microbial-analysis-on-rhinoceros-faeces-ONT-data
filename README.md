@@ -1,5 +1,3 @@
-# Welcome to GitHub Desktop!
+This page shows the steps on galaxy for doing a microbial analysis on the input data
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
-
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+![galaxy workflow](https://user-images.githubusercontent.com/81419117/122450875-cd8d2700-cfa7-11eb-951f-4b96126d1e82.png)
