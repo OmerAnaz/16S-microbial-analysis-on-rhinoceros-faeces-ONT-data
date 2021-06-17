@@ -17,7 +17,8 @@ FastQC tool on the (original) input data. Output is FastQC unprocessed : Raw and
 
 Improving the data quality
 
-Porechop tool is used for adapter trimming with the settings : >"Input FASTA/FASTQ" = orignal data. "Output format for the reads" = fastq. 
+Porechop tool is used for adapter trimming with the settings : 
+>"Input FASTA/FASTQ" = orignal data. "Output format for the reads" = fastq. 
 
 The output is renamed trimmed barcode.
 
