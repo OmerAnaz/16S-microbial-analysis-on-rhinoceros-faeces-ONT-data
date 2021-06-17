@@ -46,7 +46,7 @@ MultiQC tool is run with the Processed Raw data as input with the settings : "Wh
 
 Taxonomic classification
 
-Kraken2 tool is run with the barcoodes processed data as input and with the settings : "Single or paired reads" = Single. "Print scientific names instead of just taxids" = Yes. "Confidence" = 0.1
+Kraken2 tool is run with the barcoodes processed data as input and with the settings : ###"Single or paired reads" = Single. "Print scientific names instead of just taxids" = Yes. "Confidence" = 0.1###
 
 In Create Report "Print a report with aggregate counts/clade to file" = Yes. "Format report output like Kraken 1's kraken-mpa-report" = Yes
 
