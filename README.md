@@ -10,7 +10,13 @@ Oxford Nanopore Technologies fastq formated data of the 16S region
 
 Assess quality of data
 
-FastQC tool on the (original) input data. Output is FastQC unprocessed : Raw and FastQC unprocessed : Web data for each input. MultiQC with settings : "Which tool was used to generate logs?" set to FastQC. Input used is the raw files from FastQC output.
+FastQC tool on the (original) input data. Outputs are
+>FastQC unprocessed : Raw 
+>FastQC unprocessed : Web data for each input. 
+
+MultiQC with settings : 
+>"Which tool was used to generate logs?" set to FastQC. 
+Input used is the raw files from FastQC output.
 
 
 **Step 2:**
