@@ -91,3 +91,10 @@ Visualizing the data
 <b>Krona pie chart</b> tool was used on the output from the Remove beginning tool with the settings : 
 >"What is the type of your input data" = Tabular. 
 >"Provide a name for the basal rank" = Bacteria
+
+
+Appendices
+Fastqc on raw barcodes
+![image](https://user-images.githubusercontent.com/81419117/124190576-cd6e4a80-dac2-11eb-84a4-90ff2cd98eac.png)
+Fastqc of raw barcode_01_06
+ 
