@@ -94,7 +94,10 @@ Visualizing the data
 
 
 Appendices
+
 Fastqc on raw barcodes
+
 ![image](https://user-images.githubusercontent.com/81419117/124190576-cd6e4a80-dac2-11eb-84a4-90ff2cd98eac.png)
+
 Fastqc of raw barcode_01_06
  
